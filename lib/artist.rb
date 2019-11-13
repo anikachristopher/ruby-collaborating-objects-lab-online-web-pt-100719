@@ -17,7 +17,7 @@ class Artist
     @songs << song_obj
   end
   
-  def self.find_or_create_by_name(artist_name)
-    self.find_by_name(artist_name) || self.create_by_name (artist_name)
-  end 
+  # def self.find_or_create_by_name(artist_name)
+  #   self.find_by_name(artist_name) || self.create_by_name (artist_name)
+  # end 
 end 
